@@ -10,9 +10,7 @@ public with sharing class AccountServiceLayer {
     @testVisible
     private static String didExecuteMethod;
 
-    /**
-     * @description Internal custom exception class
-     */
+    
     public class ASLException extends Exception {
     }
 
